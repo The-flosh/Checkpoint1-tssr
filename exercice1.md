@@ -20,7 +20,7 @@ t (change le type de partition)
 ![swap](https://github.com/The-flosh/Checkpoint1-tssr/blob/main/ressources/swap.PNG)
 
 j'ai par la suite formater la partition avec ces deux commandes :
->mkswap /dev/sdb2
+>mkswap /dev/sdb2  
 sweapon /dev/sdb2
 
 ### 1.2 Montage
