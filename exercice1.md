@@ -1,7 +1,7 @@
 ### 1.1 Préparation du disque
 ---
 j'ai deja crée le deux partition de sdb (sdb1, sdb2) avec la commande:
->cfdisk /dev/sdb
+>cfdisk /dev/sdb  
 ![cfdisk](https://github.com/The-flosh/Checkpoint1-tssr/blob/main/ressources/cfdisk.PNG)
 
 j'ai ensuite fait en sorte que sdb1 qui est de 6g soit formater en ext4 avec la commande:
