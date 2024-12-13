@@ -7,16 +7,16 @@ j'ai deja crée le deux partition de sdb (sdb1, sdb2) avec la commande:
 j'ai ensuite fait en sorte que sdb1 qui est de 6g soit formater en ext4 avec la commande:
 > mkfs.ext4 -L DATA /dev/sdb1
 
-par la suite j'ai fait sorte que sdb2 soit partitionée en swap:
-> fdisk /dev/sdb
-n   (nouvelle partion (meme si elle etait deja crée)
-p   (primaire)
-2   (numéro de la partition)
-default
-defalut
-t (change le type de partition)
-2 (pour selectionner la partition a modifier)
-82 (code hexadecimal pour linux swap)
+par la suite j'ai fait sorte que sdb2 soit partitionée en swap:  
+> fdisk /dev/sdb  
+n   (nouvelle partion (meme si elle etait deja crée)  
+p   (primaire)  
+2   (numéro de la partition)  
+default  
+defalut  
+t (change le type de partition)  
+2 (pour selectionner la partition a modifier)  
+82 (code hexadecimal pour linux swap)  
 ![swap](https://github.com/The-flosh/Checkpoint1-tssr/blob/main/ressources/swap.PNG)
 
 j'ai par la suite formater la partition avec ces deux commandes :
